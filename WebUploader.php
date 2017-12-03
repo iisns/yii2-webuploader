@@ -25,7 +25,7 @@ class WebUploader extends Widget
             Yii::$app->i18n->translations['webuploader'] = [
                 'class' => 'yii\i18n\PhpMessageSource',
                 'sourceLanguage' => 'en',
-                'basePath' => '@iisns/webuploader/messages'
+                'basePath' => '@vendor/iisns/webuploader/messages'
             ];
         }
     }
